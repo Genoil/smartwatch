@@ -1,0 +1,80 @@
+# Created by Ultra Librarian Gold 5.3.88 Copyright © 1999-2010
+# Tanvir Mohammed, Premier Farnell
+
+Grid mil;
+Set Wire_Bend 2;
+
+
+Edit 'SOT95P237X112-3N.pac';
+Layer 1;
+Smd '1' 39 52 -0 R0 (-37 -40);
+Layer 1;
+Smd '2' 39 52 -0 R0 (37 -40);
+Layer 1;
+Smd '3' 39 52 -0 R0 (0 40);
+Layer 51;
+Wire 6 (-26 -28) (-48 -28);
+Wire 6 (-48 -28) (-48 -52);
+Wire 6 (-48 -52) (-26 -52);
+Wire 6 (-26 -52) (-26 -28);
+Wire 6 (48 -28) (26 -28);
+Wire 6 (26 -28) (26 -52);
+Wire 6 (26 -52) (48 -52);
+Wire 6 (48 -52) (48 -28);
+Wire 6 (-11 28) (11 28);
+Wire 6 (11 28) (11 52);
+Wire 6 (11 52) (-11 52);
+Wire 6 (-11 52) (-11 28);
+Wire 6 (-60 -28) (60 -28);
+Wire 6 (60 -28) (60 28);
+Wire 6 (60 28) (-60 28);
+Wire 6 (-60 28) (-60 -28);
+Layer 21;
+Wire 6 (-25 28) (-60 28);
+Wire 6 (-12 -28) (12 -28);
+Wire 6 (60 -6) (60 28);
+Wire 6 (60 28) (25 28);
+Wire 6 (-60 28) (-60 -6);
+Layer 25;
+Change Size 82;
+Change Ratio 10;
+Text '>NAME' SR0 (-196 83);
+Layer 27;
+Change Size 82;
+Change Ratio 10;
+Text '>VALUE' SR0 (-220 -165);
+
+Edit 'MCP1700T-3302E/TT.sym';
+Layer 94;
+Pin 'VIN' In None Middle R0 Both 0 (-700 0);
+Pin 'GND' Pas None Middle R0 Both 0 (-700 -200);
+Pin 'VOUT' Out None Middle R180 Both 0 (700 0);
+Wire 16 (-500 200) (-500 -400);
+Wire 16 (-500 -400) (500 -400);
+Wire 16 (500 -400) (500 200);
+Wire 16 (500 200) (-500 200);
+Layer 97;
+Layer 95;
+Change Size 82;
+Change Ratio 10;
+Text '>NAME' SR0 (-186 359);
+Layer 96;
+Change Size 82;
+Change Ratio 10;
+Text '>VALUE' SR0 (-228 -555);
+
+Edit 'MCP1700T-3302E/TT.dev';
+Prefix '';
+Description 'Low Quiescent Current LDO';
+Value Off;
+Add MCP1700T-3302E/TT 'A' Next  0 (0 0);
+Package 'SOT95P237X112-3N';
+Technology '';
+Attribute Supplier 'Microchip';
+Attribute MPN 'MCP1700T-3302E/TT';
+Attribute Package 'SOT23-3';
+Attribute OC_FARNELL '1296592';
+Attribute OC_NEWARK '88H9817';
+Connect 'A.GND' '1';
+Connect 'A.VOUT' '2';
+Connect 'A.VIN' '3';

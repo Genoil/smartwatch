@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "clock", "clock\clock.cproj", "{4CEE5CF7-59E9-4444-AEDC-51626F6DD74D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Release|ARM = Release|ARM
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CEE5CF7-59E9-4444-AEDC-51626F6DD74D}.Debug|ARM.ActiveCfg = Debug|ARM
+		{4CEE5CF7-59E9-4444-AEDC-51626F6DD74D}.Debug|ARM.Build.0 = Debug|ARM
+		{4CEE5CF7-59E9-4444-AEDC-51626F6DD74D}.Release|ARM.ActiveCfg = Release|ARM
+		{4CEE5CF7-59E9-4444-AEDC-51626F6DD74D}.Release|ARM.Build.0 = Release|ARM
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
